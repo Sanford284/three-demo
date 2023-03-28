@@ -1,9 +1,15 @@
 {
-  "name": "typescript",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "@types/three": "^0.150.0",
-    "three": "^0.150.1"
-  }
+    "name": "typescript",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "parcel index.html"
+    },
+    "dependencies": {
+        "@types/three": "^0.150.0",
+        "three": "^0.150.1"
+    },
+    "devDependencies": {
+        "parcel": "^2.8.3"
+    }
 }
