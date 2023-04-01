@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
-import { init } from './three';
+import './style.scss';
+import { init } from './my';
 
 init();
